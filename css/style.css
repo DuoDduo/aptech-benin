@@ -551,6 +551,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background-attachment: fixed;
   background-position: center center;
   position: relative;
+  margin-bottom: 10%;
 }
 .fh5co-counters .overlay {
   position: absolute;
