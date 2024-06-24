@@ -1026,6 +1026,12 @@ h1, h2, h3, h4, h5, h6, figure {
   -ms-border-radius: 0;
   border-radius: 0;
 }
+.fh5co-event{
+  background-color: #ddd;
+  padding: 80px;
+}
+
+
 
 .simply-countdown {
   /* The countdown */
