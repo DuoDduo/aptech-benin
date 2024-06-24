@@ -5,11 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
-/* =======================================================
-*
-* 	Template Style 
-*
-* ======================================================= */
+
 body {
   font-family: "Source Sans Pro", Arial, sans-serif;
   font-weight: 400;
@@ -111,6 +107,9 @@ h1, h2, h3, h4, h5, h6, figure {
   .fh5co-nav .top .num, .fh5co-nav .top .fh5co-social, .fh5co-nav .top .site {
     padding: 5px 10px;
   }
+  
+
+ 
 }
 .fh5co-nav .top .site {
   float: left;
@@ -214,7 +213,19 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   .fh5co-nav .menu-1 {
     display: none;
+    
   }
+   /* FAQ */
+  .faqs__container {
+    grid-template-columns: 1fr;
+  }
+
+  .faq {
+    padding: 1.5rem;
+  }
+}
+.aptech{
+  width: 20rem;
 }
 .fh5co-nav ul {
   padding: 0;
@@ -491,11 +502,12 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .services h3 a {
   color: #000;
+  font-weight: 900;
 }
 .services .icon {
   width: 90px;
   height: 90px;
-  background: rgba(0, 0, 0, 0.04);
+  background: #ae1f24;
   display: table;
   text-align: center;
   margin: 0 auto;
@@ -518,10 +530,13 @@ h1, h2, h3, h4, h5, h6, figure {
   vertical-align: middle;
   font-size: 40px;
   line-height: 40px;
-  color: #000;
+  color: #fff;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+}
+.desc p{
+  color: #000;
 }
 .services:hover .icon, .services:focus .icon {
   background: #ae1f24;
@@ -996,11 +1011,11 @@ h1, h2, h3, h4, h5, h6, figure {
   background: rgba(0, 0, 0, 0.5);
 }
 #fh5co-register h2, #fh5co-register h3, #fh5co-register p {
-  color: #fff;
+  color: #000;
 }
 #fh5co-register .btn-reg {
   background: transparent;
-  border: 2px solid #fff;
+  border: 2px solid #ae1f24;
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -1022,10 +1037,10 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   width: 120px;
   height: 120px;
-  background: rgba(0, 0, 0, 0.2);
+  background:#ae1f24;
   margin: 0 5px;
   position: relative;
-  border: 2px solid #fff;
+  border: 2px solid #ae1f24;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1514,8 +1529,8 @@ h1, h2, h3, h4, h5, h6, figure {
   border: 2px solid #ae1f24;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #437be2 !important;
-  border-color: #437be2 !important;
+  background: #ae1f24 !important;
+  border-color: #fff !important;
 }
 .btn-primary.btn-outline {
   background: transparent;

@@ -86,7 +86,35 @@
 			);
 			z-index: 1;
 		  }
-		</style>
+		#fh5co-gallery {
+			/* margin-bottom: 10%; */
+			margin: 10%;
+		}
+		.table {
+			width: 100%;
+			margin-top: 20px;
+			border-collapse: collapse;
+			font-size: 18px;
+			background-color: white;
+			
+		}
+		.table, .table th, .table td {
+			border: 1px solid #ddd;
+		}
+		.table th, .table td {
+			padding: 15px;
+			text-align: center;
+			vertical-align: middle;
+		}
+		.table th {
+			background-color: white;
+		}
+		.partner-logo {
+			width: 20vw;
+			/* height: auto; */
+		}
+	</style>
+		
 	  </head>
 	<body>
 		
@@ -124,7 +152,7 @@
 				  <div class="col-xs-2">
 					<div id="fh5co-logo">
 					  <a href="index.html"
-						><img src="./image/aptech.png" alt="" style="width: 80%"
+						><img src="./image/aptech.png" alt="" class="aptech"
 					  /></a>
 					</div>
 				  </div>
@@ -134,23 +162,13 @@
 					  <li><a href="courses.html">Courses</a></li>
 					  <li><a href="teacher.html">Teacher</a></li>
 					  <li class="active"><a href="about.html">About</a></li>
-					  <li><a href="pricing.html">Pricing</a></li>
-					  <li class="has-dropdown">
+
+					  <li>
 						<a href="blog.html">Blog</a>
-						<ul class="dropdown">
-						  <li><a href="#">Web Design</a></li>
-						  <li><a href="#">eCommerce</a></li>
-						  <li><a href="#">Branding</a></li>
-						  <li><a href="#">API</a></li>
-						</ul>
+						
 					  </li>
 					  <li><a href="contact.html">Contact</a></li>
-					  <li class="btn-cta">
-						<a href="#"><span>Login</span></a>
-					  </li>
-					  <li class="btn-cta">
-						<a href="#"><span>Create a Course</span></a>
-					  </li>
+					  
 					</ul>
 				  </div>
 				</div>
@@ -227,6 +245,48 @@
 			</div>
 		</div>
 	</div>
+
+	<div id="fh5co-gallery" class="fh5co-bg-section">
+		<div class="row text-center">
+			<h2><span>Our Partners</span></h2>
+		</div>
+		<div class="row">
+			<table class="table table-bordered">
+				<thead>
+					<tr>
+						<th>Partner Name</th>
+						<th>Logo</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>UCLan</td>
+						<td><img src="./image/UCLan-logo.png" alt="UCLan Logo" class="partner-logo"></td>
+					</tr>
+					<tr>
+						<td>University of Bolton</td>
+						<td><img src="./image/university-of-bolton-logo.png" alt="University of Bolton Logo" class="partner-logo"></td>
+					</tr>
+					<tr>
+						<td>Middlesex University</td>
+						<td><img src="./image/pngegg (2).png" alt="Another Partner Logo" class="partner-logo"></td>
+					</tr>
+					<tr>
+						<td>Ofqual</td>
+						<td><img src="./image/Ofqual_logo_2018.svg" alt="Aptech Logo" class="partner-logo"></td>
+					</tr>
+					<tr>
+						<td>NCC</td>
+						<td><img src="./image/NCC Education_ida9LQzEN5_1.jpeg" alt="Aptech Logo" class="partner-logo"></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	
+	
+	
+	
 
 	<div id="fh5co-counter" class="fh5co-counters" style=" background-color: #ae1f24;"
 	data-stellar-background-ratio="0.5"
