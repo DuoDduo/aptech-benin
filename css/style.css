@@ -1018,16 +1018,18 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #000;
 }
 #fh5co-register .btn-reg {
-  background: transparent;
-  border: 2px solid #ae1f24;
-  font-size: 12px;
+  background: #ae1f24;
+  /* border: 2px solid ; */
+  font-size: 16px;
+  
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
-  border-radius: 0;
+  border-radius: 10px;
+  /* border-radius: 0; */
 }
 .fh5co-event{
   background-color: #ddd;
