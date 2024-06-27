@@ -382,6 +382,10 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 40px;
   z-index: 1000;
 }
+#fh5co-hero .flexslider {
+  touch-action: none; /* Disable touch actions */
+}
+
 #fh5co-hero .flexslider .flex-control-nav li a {
   background: rgba(255, 255, 255, 0.2);
   box-shadow: none;
