@@ -49,8 +49,7 @@
     <!-- Flexslider  -->
     <link rel="stylesheet" href="css/flexslider.css" />
 
-    <!-- Pricing -->
-    <link rel="stylesheet" href="css/pricing.css" />
+   
 
     <!-- Theme style  -->
     <link rel="stylesheet" href="css/style.css" />
@@ -107,6 +106,20 @@
 			margin-top: 0;
 			margin-bottom: 10px;
 		}
+    .logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container #fh5co-logo {
+  margin-right: 10px; /* Adjust space between logos */
+}
+
+.hansfelz {
+  width: 90px;
+  /* border-radius: 10%; */
+}
+
 			
     </style>
   </head>
@@ -120,7 +133,8 @@
             <div class="row">
               <div class="col-xs-12 text-right">
                 <p class="site">www.aptechbenin.com</p>
-                <p class="num">Call: 07077388482</p>
+                <p class="num">Call: 07077388482 | 08086213157</p>
+                <!-- <p class="num"></p> -->
                 <ul class="fh5co-social">
                   <li>
                     <a href="https://web.facebook.com/profile.php?id=61560921099200"><i class="icon-facebook2"></i></a>
@@ -139,11 +153,18 @@
         <div class="top-menu">
           <div class="container">
             <div class="row">
-              <div class="col-xs-2">
-                <div id="fh5co-logo">
-                  <a href="index.html"
-                    ><img src="./image/aptech.png" alt="" class="aptech"
-                  /></a>
+              <div class="col-xs-2 text-left">
+                <div class="logo-container">
+                  <div id="fh5co-logo">
+                    <a href="index.html">
+                      <img src="./image/aptech.png" alt="" class="aptech" />
+                    </a>
+                  </div>
+                  <div id="fh5co-logo">
+                    <a href="index.html">
+                      <img src="./image/hansfelz.jpg" alt="" class="hansfelz" />
+                    </a>
+                  </div>
                 </div>
               </div>
               <div class="col-xs-10 text-right menu-1">
@@ -152,22 +173,14 @@
                   <li><a href="courses.html">Courses</a></li>
                   <li><a href="teacher.html">Faculty</a></li>
                   <li><a href="about.html">About</a></li>
-                  <li>
-                    <a href="blog.html">Blog</a>
-                    
-                  </li>
+                  <li><a href="blog.html">Blog</a></li>
                   <li><a href="contact.html">Contact</a></li>
-                  <!-- <li class="btn-cta">
-                    <a href="#"><span>Login</span></a>
-                  </li>
-                  <li class="btn-cta">
-                    <a href="#"><span>Sign Up</span></a>
-                  </li> -->
                 </ul>
               </div>
             </div>
           </div>
         </div>
+        
       </nav>
 
       <aside id="fh5co-hero">
@@ -261,17 +274,41 @@
 					Aptech has played an integral role in enhancing minds and building careers of students across the world. A number of international accolades and awards are a testament to this excellence in education.
 					
 					.</p>
-					<!-- <h3>ABOUT ADSE</h3>
-					<p>
-					The Advanced Diploma in Software Engineering (ADSE) is a cutting-edge program that trains students in JAVA, NET, LINUX, PYTHON, CLOUD COMPUTING, IOT, DATA SCIENCE, AI, MACHINE LEARNING and a number of other in-demand and new age technologies.. These technologies play a key role in the making of a capable I.T. professional. Aptech also has international alliances with reputed institutes like the Lincoln University College in Malaysia, Middlesex University in London and NCC Education in UK. Students get a fantastic opportunity to study abroad in UK, Malaysia or Dubai via Credit transfer facility at Partnered Universities.
-					</p> -->
+          <a class="btn btn-primary btn-lg btn-learn" href="about.html"
+          >Read More</a
+        >
+      </p>
 		
 			</div>
-			<div class="col-md-6">
-				<img class="img-responsive" src="./image/aptechimage.jpg" alt="Free HTML5 Bootstrap Template">
+      <div class="col-md-6">
+				<!-- Video Embed -->
+				<div class="embed-responsive embed-responsive-16by9">
+					<video class="embed-responsive-item" autoplay controls>
+						<source src="./video/video 2.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+				</div>
+        <p>
+        
 			</div>
+			
 		</div>
 	</div>
+<!-- 
+  <div id="fh5co-about">
+		<div class="container">
+     
+      <div class="col-md-6">
+				<img class="img-responsive" src="./image/aptechimage.jpg" alt="Free HTML5 Bootstrap Template">
+			</div>
+			<div class="col-md-6 animate-box">
+				<span>Aptech Computer Education</span>
+				<h4> Aptech Benin</h4>
+				<p>Aptech Benin is a premier institution offering cutting-edge education in information technology and related fields. Established with a vision to empower individuals with technical skills and knowledge, Aptech Benin has been a leader in the education sector since its inception. Our curriculum is designed to meet global standards, ensuring our students are equipped with the latest industry-relevant skills..</p>
+			</div>
+			
+		</div>
+	</div> -->
 
       <div id="fh5co-course-categories" style="background-color: #f9c01b;">
         <div class="container">

@@ -15,6 +15,9 @@ body {
   background: #fff;
 }
 
+.num{
+  font-weight: 900;
+}
 #page {
   position: relative;
   overflow-x: hidden;
@@ -37,7 +40,7 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 101;
+  z-index: 10 1;
   background: rgba(0, 0, 0, 0.7);
   content: "";
 }
@@ -200,7 +203,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-nav #fh5co-logo a {
   color: #000;
   position: relative;
-  padding-left: 25px;
+  /* padding-left: 10px; */
 }
 .fh5co-nav #fh5co-logo a span {
   color: #000;
