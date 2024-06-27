@@ -241,8 +241,7 @@ faqs.forEach(faq => {
 
 			easing: "swing",
 			direction: "vertical",
-			Touch:false,
-
+			touch:false,
 			slideshowSpeed: 5000,
 			directionNav: true,
 			start: function(){
