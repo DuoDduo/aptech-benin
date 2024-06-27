@@ -991,6 +991,12 @@
     <!-- Main -->
     <script src="js/main.js"></script>
     <script>
+         $(document).ready(function() {
+      $('.flexslider').flexslider({
+        animation: "slide",
+        touch: false // Disables touch swipe functionality
+      });
+    });
       // JavaScript to handle Read More functionality
 		document.addEventListener('DOMContentLoaded', function() {
 			const readMoreLinks = document.querySelectorAll('.read-more');
