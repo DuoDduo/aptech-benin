@@ -30,6 +30,7 @@ body {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  z-index: 2;
 }
 .offcanvas #page {
   overflow: hidden;
@@ -347,6 +348,9 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-hero {
   min-height: 630px;
   height: 630px;
+  height: auto; /* Ensure the height is not fixed */
+    position: relative;
+z-index: 1; 
   background: #fff url(../images/loader.gif) no-repeat center center;
 }
 #fh5co-hero .btn {
